@@ -204,3 +204,7 @@ void Encoder::resetTicks(){
 void Encoder::setInvert(bool invert){
 	_invert = invert;
 }
+
+void Encoder::setTicks(int32_t ticks){
+	_ticks = ticks;
+}

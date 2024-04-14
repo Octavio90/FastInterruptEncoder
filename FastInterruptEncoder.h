@@ -28,6 +28,7 @@ class Encoder
 	int32_t getTicks();
 	void resetTicks();
 	void setInvert(bool invert = true);
+	void setTicks(int32_t ticks);
 	
   private:
 	int _pinA;
